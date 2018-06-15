@@ -106,7 +106,7 @@ class ApplicationController < ActionController::Base
   end
 
   def set_layout
-    use_crawler_layout? ? 'crawler' : 'application'
+    use_crawler_layout? ? 'application' : 'application'
   end
 
   # Some exceptions
